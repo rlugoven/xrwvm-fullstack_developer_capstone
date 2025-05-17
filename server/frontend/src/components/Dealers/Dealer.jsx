@@ -91,3 +91,9 @@ return(
 }
 
 export default Dealer
+    </div>  
+  </div>
+)
+}
+
+export default Dealer
