@@ -1,6 +1,5 @@
 <html>
 <head>
-  <!-- Link the style sheet here -->
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
@@ -17,39 +16,47 @@
             <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-    <img class="card-img-top" style="width: 50%;" src="/static/cars.jpeg" alt="Cars">
-      <div style="display: flex;flex-direction: row; margin:auto">
-        
-        <img class="card-img-top" src="/static/contactus.png" alt="Card image">
-        <div class="card-body">
-          <p><b>Contact Customer Service</b></p>
-          <p>support@bestcars.com</p>
-          <p><b>Contact Our National Adverstising Team</b></p>
-          <p>NationalSales@bestcars.com</p>
-          <p><b>Contact Our Public Realtions Team</b></p>
-          <p>PR@bestcars.com</p>
-          <p><b>Contact The bestcars.com offices</b></p>
-          <p>312-611-1111</p>
-          <p><b>Become a bestcars.com car dealer</b></p>
-          <p>Visit growwithbestcars.com</p>
-        </div>
-      </div>
 
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="card">
+      <div style="display: flex; justify-content: center;">
+        <img class="card-img-top" style="width: 70%;" src="/static/cars.jpeg" alt="Card image">
+    </div><br>
     
-    </div>
-    </div>
-    
-</div>
-
+    <div style="display: flex" >
+        <img class="card-text" style="width: 30%; margin-left: 40px;" src="/static/contactus.png" alt="Card image" style="width: 30%; margin-left: 20px;">
+        <hr style="width: 3px; transform: rotate(90deg);">
+        <div class="card margin-right" style="display: flex; align-items: center; padding: 20px; color: darkblue;">
+            <h1 class="contact-info" name="about-header">Contact Us</h1>
+            <p>If you have any questions or feedback, feel free to reach out:</p>
+            <ul class="card-text" style="align-items: center; width: 80%;">
+                <li>Contact Customer Service<br>
+                    <p>support@bestcars.com</p>
+                </li>
+                <li>Contact our National Advertising team<br>
+                    <p>NationalSales@bestcars.com</p>
+                </li>
+                <li>Contact our Public Relations team<br>
+                    <p>PR@bestcars.com</p>
+                </li>
+                <li>Contact the bestcars.com offices<br>
+                    <p>312-611-1111</p>
+                </li>
+                <li>Become a bestcars.com car dealer<br>
+                    <p>Visit growwithbestcars.com</b></p>
+                </li>
+            </ul>
+        </div>     
+    </div> 
+  </div>
+</div>  
 </html>
